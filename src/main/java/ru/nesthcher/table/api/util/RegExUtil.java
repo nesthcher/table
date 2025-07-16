@@ -12,7 +12,7 @@ public class RegExUtil {
     /**
      * Регулярное выражение для проверки валидности имени таблицы.
      */
-    private final String VALID_TABLE_NAME = "^[a-zA-Zа-яА-ЯёЁ0-9_\\- ]{1,30}$";
+    private final String VALID_TABLE_NAME = "^([a-zA-Zа-яА-ЯёЁ0-9\\- ]){1,30}$";
 
     /**
      * Проверяет, соответствует ли имя таблицы допустимому формату.

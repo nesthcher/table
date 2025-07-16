@@ -1,6 +1,6 @@
 package ru.nesthcher.table.api.row;
 
-import java.util.List;
+import java.util.ArrayList;
 
 import ru.nesthcher.table.api.row.cell.AbstractCell;
 
@@ -12,7 +12,7 @@ public interface AbstractRow {
      * Получить список ячеек строки.
      * @return список ячеек
      */
-    List<AbstractCell> getCells();
+    ArrayList<AbstractCell> getCells();
     /**
      * Получить количество ячеек в строке.
      * @return количество ячеек

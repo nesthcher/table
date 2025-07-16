@@ -1,5 +1,6 @@
 package ru.nesthcher.table.implementation.row;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.jetbrains.annotations.NotNull;
@@ -18,7 +19,7 @@ public class Row implements AbstractRow {
     /**
      * Список ячеек строки.
      */
-    private final List<AbstractCell> cells;
+    private final ArrayList<AbstractCell> cells;
 
     /**
      * Конструктор строки с переменным числом ячеек.
@@ -27,7 +28,7 @@ public class Row implements AbstractRow {
     public Row(
             @NotNull final AbstractCell... cells
     ) {
-        this.cells = List.of(cells);
+        this.cells = new ArrayList<>(List.of(cells));
     }
 
     /**
