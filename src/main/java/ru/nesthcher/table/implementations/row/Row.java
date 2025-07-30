@@ -1,4 +1,4 @@
-package ru.nesthcher.table.implementation.row;
+package ru.nesthcher.table.implementations.row;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,8 +7,8 @@ import org.jetbrains.annotations.NotNull;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
-import ru.nesthcher.table.api.row.AbstractRow;
-import ru.nesthcher.table.api.row.cell.AbstractCell;
+import ru.nesthcher.table.interfaces.row.AbstractRow;
+import ru.nesthcher.table.interfaces.row.cell.AbstractCell;
 
 /**
  * Класс, реализующий строку таблицы.

@@ -1,4 +1,4 @@
-package ru.nesthcher.table.implementation.builder;
+package ru.nesthcher.table.implementations.builder;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -11,10 +11,10 @@ import javax.imageio.ImageIO;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-import ru.nesthcher.table.api.AbstractTable;
-import ru.nesthcher.table.api.builder.AbstractTableBuilder;
-import ru.nesthcher.table.api.row.AbstractRow;
-import ru.nesthcher.table.api.row.cell.AbstractCell;
+import ru.nesthcher.table.interfaces.AbstractTable;
+import ru.nesthcher.table.interfaces.builder.AbstractTableBuilder;
+import ru.nesthcher.table.interfaces.row.AbstractRow;
+import ru.nesthcher.table.interfaces.row.cell.AbstractCell;
 import ru.nesthcher.utils.container.Pair;
 
 /**

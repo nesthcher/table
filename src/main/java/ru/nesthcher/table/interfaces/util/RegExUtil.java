@@ -1,4 +1,4 @@
-package ru.nesthcher.table.api.util;
+package ru.nesthcher.table.interfaces.util;
 
 import org.jetbrains.annotations.NotNull;
 

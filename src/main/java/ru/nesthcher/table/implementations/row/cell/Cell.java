@@ -1,8 +1,8 @@
-package ru.nesthcher.table.implementation.row.cell;
+package ru.nesthcher.table.implementations.row.cell;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import ru.nesthcher.table.api.row.cell.AbstractCell;
+import ru.nesthcher.table.interfaces.row.cell.AbstractCell;
 
 /**
  * Класс, реализующий обычную ячейку таблицы.

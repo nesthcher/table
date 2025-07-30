@@ -1,8 +1,8 @@
-package ru.nesthcher.table.api.row;
+package ru.nesthcher.table.interfaces.row;
 
 import java.util.ArrayList;
 
-import ru.nesthcher.table.api.row.cell.AbstractCell;
+import ru.nesthcher.table.interfaces.row.cell.AbstractCell;
 
 /**
  * Интерфейс, описывающий строку таблицы.

@@ -1,12 +1,12 @@
-package ru.nesthcher.table.api;
+package ru.nesthcher.table.interfaces;
 
 import java.util.List;
 
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-import ru.nesthcher.table.api.builder.AbstractTableBuilder;
-import ru.nesthcher.table.api.row.AbstractRow;
+import ru.nesthcher.table.interfaces.builder.AbstractTableBuilder;
+import ru.nesthcher.table.interfaces.row.AbstractRow;
 
 /**
  * Интерфейс, описывающий таблицу.

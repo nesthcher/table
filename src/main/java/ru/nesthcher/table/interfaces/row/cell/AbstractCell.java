@@ -1,4 +1,4 @@
-package ru.nesthcher.table.api.row.cell;
+package ru.nesthcher.table.interfaces.row.cell;
 
 /**
  * Интерфейс, описывающий ячейку таблицы.

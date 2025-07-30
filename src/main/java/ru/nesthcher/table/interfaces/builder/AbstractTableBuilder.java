@@ -1,9 +1,9 @@
-package ru.nesthcher.table.api.builder;
+package ru.nesthcher.table.interfaces.builder;
 
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-import ru.nesthcher.table.api.AbstractTable;
+import ru.nesthcher.table.interfaces.AbstractTable;
 
 /**
  * Интерфейс строителя таблицы.

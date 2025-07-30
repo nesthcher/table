@@ -1,4 +1,4 @@
-package ru.nesthcher.table.implementation;
+package ru.nesthcher.table.implementations;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,9 +8,9 @@ import org.jetbrains.annotations.Nullable;
 
 import lombok.Getter;
 import lombok.ToString;
-import ru.nesthcher.table.api.AbstractTable;
-import ru.nesthcher.table.api.builder.AbstractTableBuilder;
-import ru.nesthcher.table.api.row.AbstractRow;
+import ru.nesthcher.table.interfaces.AbstractTable;
+import ru.nesthcher.table.interfaces.builder.AbstractTableBuilder;
+import ru.nesthcher.table.interfaces.row.AbstractRow;
 import ru.nesthcher.utils.PatternUtil;
 
 /**
