@@ -48,7 +48,7 @@ public class Table implements AbstractTable {
      */
     public Table(
             @NotNull final String name,
-            @NotNull final ArrayList<AbstractRow> rows
+            @NotNull final List<AbstractRow> rows
     ) {
         this.name = name;
         this.rows = rows;
