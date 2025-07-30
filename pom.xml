@@ -6,7 +6,7 @@
 
     <groupId>ru.nesthcher</groupId>
     <artifactId>table</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
 
     <name>${project.groupId}:${project.artifactId}</name>
     <description>Библиотека для создания, хранения и экспорта табличных данных.</description>

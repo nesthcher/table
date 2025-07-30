@@ -26,7 +26,7 @@ public class Table implements AbstractTable {
     /**
      * Список строк таблицы.
      */
-    private final ArrayList<AbstractRow> rows;
+    private final List<AbstractRow> rows;
 
     /**
      * Конструктор таблицы с именем (без строк).
@@ -65,7 +65,7 @@ public class Table implements AbstractTable {
             @NotNull final AbstractRow... rows
     ) {
         this.name = name;
-        this.rows = new ArrayList<>(List.of(rows));
+        this.rows = List.of(rows);
         validName();
     }
 
