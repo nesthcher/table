@@ -11,7 +11,7 @@ import lombok.ToString;
 import ru.nesthcher.table.interfaces.AbstractTable;
 import ru.nesthcher.table.interfaces.builder.AbstractTableBuilder;
 import ru.nesthcher.table.interfaces.row.AbstractRow;
-import ru.nesthcher.utils.PatternUtil;
+import ru.nesthcher.utils.pattern.PatternUtil;
 
 /**
  * Класс, реализующий таблицу.
